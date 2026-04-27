@@ -1,5 +1,10 @@
-# Data files
-data/
+# Data files — ignore content but keep folder structure
+data/**
+!data/
+!data/raw/
+!data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 *.csv
 *.parquet
 
