@@ -2,5 +2,10 @@ import pandas as pd
 
 def load_csv(filepath):
     df = pd.read_csv(filepath)
-    print(f"Loaded {df.shape[0]} rows and {df.shape[1]} columns")
+    print(f"✅ Loaded CSV: {df.shape[0]} rows × {df.shape[1]} columns")
+    return df
+
+def load_parquet(filepath):
+    df = pd.read_parquet(filepath)
+    print(f"✅ Loaded {df.shape[0]} rows and {df.shape[1]} columns")
     return df
