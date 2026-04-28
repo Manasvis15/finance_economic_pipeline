@@ -1,0 +1,20 @@
+#data handling
+numpy
+pandas
+sys
+os
+
+#visualization
+matplotlib.pyplot
+seaborn
+
+#packages
+pip
+scipy
+scikit-learn
+statsmodels
+
+#database
+postgresql
+parquet
+
